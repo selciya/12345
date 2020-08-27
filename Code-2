@@ -1,2 +1,2 @@
-ls  -l  | awk '(print $5)'  |  sort -s^w
-find /elf  -size*.lock
+
+ls -lSrR /*/*.elf
